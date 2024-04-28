@@ -1,0 +1,46 @@
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    @apply box-border transition-colors duration-200
+}
+
+/* .btn{
+    @apply border border-teal-100 bg-gradient-to-tr from-orange-700 to-orange-600 px-5 py-2.5 text-yellow-50 rounded-md
+} */
+.Swiper{
+    @apply  w-4/5 bg-slate-200
+}
+.Swiper-Slide{
+    @apply bg-slate-200
+}
+input{
+    @apply rounded-md   
+}
+.im {
+    @apply h-screen w-screen
+}
+.admin{
+    background-image: url("./assets/images/Palstein.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+}
+.links{
+    display: none;
+}
+.spn{
+
+    background-color: gray;
+    
+    margin-top: 6px;
+    display: flex;
+    align-items:flex-end ;
+}
+
+.group{
+display: none;
+
+}
+
